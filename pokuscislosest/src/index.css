@@ -1,0 +1,20 @@
+.nav{
+    display: flex;
+    font-size: 35px;
+    justify-content: space-between;
+    width: 680px;
+
+}
+.cara{
+    border-bottom: 1px solid #000;
+}
+.bold{
+    font-weight: bold;
+}
+.start{
+    display: flex;
+
+}
+.new{
+    background-color: red;
+}
