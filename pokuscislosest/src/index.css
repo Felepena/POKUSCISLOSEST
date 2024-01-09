@@ -1,8 +1,15 @@
+body{
+    margin: 0;
+    font-family: "Arial Nova";
+}
 .nav{
     display: flex;
     font-size: 35px;
     justify-content: space-between;
     width: 680px;
+    margin-left: 200px;
+    flex-shrink: 0;
+    flex-wrap: wrap;
 
 }
 .cara{
@@ -13,8 +20,63 @@
 }
 .start{
     display: flex;
+    justify-content: space-between;
+    width: 250px;
+    font-size: 22px;
+
+
+
 
 }
-.new{
-    background-color: red;
+.boldie{
+    margin-top: 46px;
+    font-weight: bold;
+    font-size: 26px;
+}
+.location{
+color: gray;
+
+}
+.spek{
+    font-size: 20px;
+}
+.card{
+    border: 1px solid rgba(70,73,100,0.36) ;
+    padding-top: 20px;
+    padding-left: 70px;
+    padding-right: 70px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    transform: scale(1);
+    transition: transform 0.3s ease;
+
+}
+.tvojamatka {
+    padding-top: 20px;
+    padding-left: 70px;
+    padding-right: 70px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-shrink: 0;
+    gap: 20px ;
+
+}
+.card:hover{
+    transform: scale(1.05);
+}
+.enrol{
+    background-color: white;
+    transition: background-color 0.3s ease;
+    color: black;
+    width: 90px;
+    height: 50px;
+    font-size: 15px;
+    border-radius: 10px;
+
+}
+.enrol:hover{
+    background-color: lightskyblue;
+
 }
